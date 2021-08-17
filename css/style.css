@@ -109,18 +109,7 @@ p {
     color: #333;
 }
 
-/* box icon */
-.box{
-    float: left;
-    width:33.3%;
-    padding:50px;
-    text-align: center;
-}
-.box h3{
-    font-weight: bold;
-    margin-top: 10px;
-    font-size: 19px;
-}
+
 .clr {
     clear: both;
 }
@@ -144,7 +133,7 @@ p {
     float: left;
     padding-top: 20px;
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 #navbar .logo a:hover{
     color: #f7c08a;
@@ -193,7 +182,7 @@ p {
 
 /* Home Info */
 #home-info {
-    height:400px;
+    height:550px;
 }
 #home-info .info-img {
     float:left;
@@ -207,7 +196,7 @@ p {
     width: 50%;
     height: 100%;
     text-align: center;
-    padding: 50px 30px;
+    padding: 100px 30px;
     overflow: hidden;
 }
 
@@ -216,12 +205,25 @@ p {
     font-weight: 700;
 }
 
+
+/* home info */
 #home-info .info-content p {
     padding-top: 10px;
     padding-bottom: 30px;
 }
 
-
+/* box icon */
+.box{
+    float: left;
+    width:33.3%;
+    padding:50px;
+    text-align: center;
+}
+.box h3{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 19px;
+}
 
 /* About */
 #about-info .info-left{
